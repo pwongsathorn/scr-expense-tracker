@@ -1,3 +1,4 @@
+import type { ViteConfig } from 'nuxt/schema'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 // https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -8,7 +9,7 @@ export default defineNuxtConfig({
     port: 8097,
   },
   typescript: {
-    typeCheck: true
+    typeCheck: true,
   },
   build: {
     transpile: ['vuetify'],

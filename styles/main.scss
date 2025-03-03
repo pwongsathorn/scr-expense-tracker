@@ -1,0 +1,8 @@
+$body-font-family: 'Noto Sans Thai', sans-serif;
+$font-size: 1rem !important;
+@use 'vuetify' with (
+  $body-font-family: $body-font-family,
+  $font-size-root: $font-size
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Chonburi&display=swap');

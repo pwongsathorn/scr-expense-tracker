@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "expense-tracker",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,21 +10,30 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@date-io/date-fns": "^3.2.0",
+    "@date-io/dayjs": "^3.2.0",
     "@mdi/font": "^7.4.47",
     "@nuxt/eslint": "1.1.0",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
     "eslint": "^9.0.0",
     "nuxt": "^3.15.4",
+    "pinia": "^3.0.1",
+    "sass": "^1.85.1",
     "vue": "latest",
+    "vue-i18n": "^11.1.1",
     "vue-router": "latest"
   },
   "packageManager": "yarn@4.7.0",
   "devDependencies": {
     "@nuxt/test-utils": "^3.17.0",
+    "@typescript-eslint/parser": "^8.25.0",
     "@vue/test-utils": "^2.4.6",
     "happy-dom": "^17.1.8",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.0",
     "vite-plugin-vuetify": "^2.1.0",
     "vitest": "^3.0.7",
+    "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "^2.2.8",
     "vuetify": "^3.7.14"
   }
