@@ -1,11 +1,14 @@
 import common from './common/th.json'
+import inputs from './inputs/th.json'
 
 export default {
   common: {
     ...common,
   },
   constant: {},
-  utils: {},
+  utils: {
+    ...inputs,
+  },
   components: {},
   pages: {},
 }

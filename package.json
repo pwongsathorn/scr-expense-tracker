@@ -12,6 +12,8 @@
   "dependencies": {
     "@date-io/date-fns": "^3.2.0",
     "@date-io/dayjs": "^3.2.0",
+    "@maskito/kit": "^3.3.0",
+    "@maskito/vue": "^3.3.0",
     "@mdi/font": "^7.4.47",
     "@nuxt/eslint": "1.1.0",
     "date-fns": "^4.1.0",

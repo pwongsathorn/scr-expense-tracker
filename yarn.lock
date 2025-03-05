@@ -1108,6 +1108,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@maskito/kit@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@maskito/kit@npm:3.3.0"
+  peerDependencies:
+    "@maskito/core": ^3.3.0
+  checksum: 10c0/4d52ffca27da55882e439901fa3865e09d03b3a3753ee76712aed791cbe49ee92e5120cbc07059ef87df96caa2887edf094361a0d9a0e73ce4927d2cd545e8ef
+  languageName: node
+  linkType: hard
+
+"@maskito/vue@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@maskito/vue@npm:3.3.0"
+  peerDependencies:
+    "@maskito/core": ^3.3.0
+    vue: ">=3.0.0"
+  checksum: 10c0/4ee2770d78c67a70bcedfaa03a59e45c76f841447fa85a56db1b36d712c1c20e54e281c16c29e4aeaca0a27736488b57a35527082fe1ff90a2e061cbe4af5535
+  languageName: node
+  linkType: hard
+
 "@mdi/font@npm:^7.4.47":
   version: 7.4.47
   resolution: "@mdi/font@npm:7.4.47"
@@ -4769,6 +4788,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expense-tracker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "expense-tracker@workspace:."
+  dependencies:
+    "@date-io/date-fns": "npm:^3.2.0"
+    "@date-io/dayjs": "npm:^3.2.0"
+    "@maskito/kit": "npm:^3.3.0"
+    "@maskito/vue": "npm:^3.3.0"
+    "@mdi/font": "npm:^7.4.47"
+    "@nuxt/eslint": "npm:1.1.0"
+    "@nuxt/test-utils": "npm:^3.17.0"
+    "@typescript-eslint/parser": "npm:^8.25.0"
+    "@vue/test-utils": "npm:^2.4.6"
+    date-fns: "npm:^4.1.0"
+    dayjs: "npm:^1.11.13"
+    eslint: "npm:^9.0.0"
+    happy-dom: "npm:^17.1.8"
+    nuxt: "npm:^3.15.4"
+    pinia: "npm:^3.0.1"
+    sass: "npm:^1.85.1"
+    typescript: "npm:^5.8.0"
+    vite-plugin-vuetify: "npm:^2.1.0"
+    vitest: "npm:^3.0.7"
+    vue: "npm:latest"
+    vue-eslint-parser: "npm:^9.4.3"
+    vue-i18n: "npm:^11.1.1"
+    vue-router: "npm:latest"
+    vue-tsc: "npm:^2.2.8"
+    vuetify: "npm:^3.7.14"
+  languageName: unknown
+  linkType: soft
+
 "exponential-backoff@npm:^3.1.1":
   version: 3.1.2
   resolution: "exponential-backoff@npm:3.1.2"
@@ -6778,36 +6829,6 @@ __metadata:
   checksum: 10c0/5fee7ff309727763689cfad844d979aedd2204a817fbaaf0e1603794a7c20db28548d7b024692f953557df6ce4a0ee4ae46cd8ebd9b36cfb300b9226b567c479
   languageName: node
   linkType: hard
-
-"nuxt-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:."
-  dependencies:
-    "@date-io/date-fns": "npm:^3.2.0"
-    "@date-io/dayjs": "npm:^3.2.0"
-    "@mdi/font": "npm:^7.4.47"
-    "@nuxt/eslint": "npm:1.1.0"
-    "@nuxt/test-utils": "npm:^3.17.0"
-    "@typescript-eslint/parser": "npm:^8.25.0"
-    "@vue/test-utils": "npm:^2.4.6"
-    date-fns: "npm:^4.1.0"
-    dayjs: "npm:^1.11.13"
-    eslint: "npm:^9.0.0"
-    happy-dom: "npm:^17.1.8"
-    nuxt: "npm:^3.15.4"
-    pinia: "npm:^3.0.1"
-    sass: "npm:^1.85.1"
-    typescript: "npm:^5.8.0"
-    vite-plugin-vuetify: "npm:^2.1.0"
-    vitest: "npm:^3.0.7"
-    vue: "npm:latest"
-    vue-eslint-parser: "npm:^9.4.3"
-    vue-i18n: "npm:^11.1.1"
-    vue-router: "npm:latest"
-    vue-tsc: "npm:^2.2.8"
-    vuetify: "npm:^3.7.14"
-  languageName: unknown
-  linkType: soft
 
 "nuxt@npm:^3.15.4":
   version: 3.15.4
